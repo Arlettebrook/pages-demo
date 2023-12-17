@@ -1,0 +1,21 @@
+{
+  "name": "page-demo",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "pages:dev": "wrangler pages dev --compatibility-date=2023-12-06 --proxy 5173 -- pnpm run dev",
+    "pages:deploy": "pnpm run build && wrangler pages deploy ./dist"
+  },
+  "dependencies": {
+    "vue": "^3.3.10"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.1",
+    "vite": "^5.0.5",
+    "wrangler": "^3.21.0"
+  }
+}
