@@ -1,7 +1,0 @@
-# kv_namespace=[
-#   { binding = "kv_demo", id = "3fcc2f0f99da49c191122422c922adef" }
-#   ]
-
-[[kv_namespaces]]
-binding = "kv_demo"
-id = "3fcc2f0f99da49c191122422c922adef"
