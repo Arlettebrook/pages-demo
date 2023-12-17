@@ -30,3 +30,4 @@ coverage
 *.tsbuildinfo
 wrangler.toml
 .wrangler/
+.vscode/
