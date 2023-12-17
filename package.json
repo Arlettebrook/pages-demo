@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "pages:dev": "wrangler pages dev --compatibility-date=2023-12-06 --proxy 5173 -- pnpm run dev",
+    "pages:dev": "wrangler pages dev --kv=kv_demo --compatibility-date=2023-12-06 --proxy 5173 -- pnpm run dev",
     "pages:deploy": "pnpm run build && wrangler pages deploy ./dist"
   },
   "dependencies": {
